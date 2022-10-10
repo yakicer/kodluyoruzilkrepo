@@ -2,13 +2,13 @@
 
 Bu repo [Kodluyoruz](https://kodluyoruz.org/tr/kodluyoruz/) Front-End Eğitiminde oluşturduğumuz ilk repo içerisinde bir adet README dosyası, bir adet de index.html barındırıyor
 
-# - Installation
+- Installation
 
 Öncelikle projeyi clonelayın. (https://github.com/yakicer/kodluyoruzilkrepo)
 
 > git clone https://github.com/yakicer/kodluyoruzilkrepo
 
-# - Usage
+- Usage
 
 Projeyi cloneladıktan sonra Visual Studio Code Programında açınız
 
@@ -17,10 +17,10 @@ Linux için:
 > cd kodluyoruzilkrepo
 > code .
 
-# - Contrituting
+- Contrituting
 
 Pull requestler kabul edilir. Büyük değişiklikler için önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
-# - License
+- License
 
 [MIT](https://choosealicense.com/licenses/mit/)
