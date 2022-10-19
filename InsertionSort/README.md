@@ -1,6 +1,6 @@
 # **INSERTION SORT**
 ## Verilen Dizinin Insertion Sort Türüne Göre Aşamaları
-#### **Consider an example: {22,27,16,2,18,6}**
+### **Consider an example: {22,27,16,2,18,6}**
 
 #### **First Pass:**
 
@@ -10,7 +10,7 @@
 
 - Here, **27** is greater than **22**, thus both elements seems to be in ascending order, hence, no swapping will occur.
 - So, for now **22** is stored in a sorted sub-array.
-   
+
 #### **Second Pass:**
 
 - Now, move to the next two elements and compare them
