@@ -18,5 +18,5 @@
 - The list will look like this after the final merge.
 ![Step 7](/assets/mergesort7.png "Step 7")
 
-#### The final answer is formed by combining sub-arrays as shown in the below image
+### The final answer is formed by combining sub-arrays as shown in the below image
 ![All Steps](/assets/MergeSort.png "All Steps")
