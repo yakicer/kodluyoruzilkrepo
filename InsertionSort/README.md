@@ -63,3 +63,52 @@
 - Elements **2** and **6** are seem sorted, thus no swap needed.
 	### **`2	6	16	18	22	27`**
 - See **27** is the last element of the array therefore sorting is complete.
+## *Big O Notation of Given Array* 
+#### Time Complexity: **O(N^2)**
+
+#### Auxiliary Space: **O(1)**
+
+## *Which Case Will Cover Element 18 After The Array is Sorted?*
+
+As we can see **18** is the middle element of the array after sorting, thus the case will be **Average Case**
+
+## *First Four Steps of Given Array*
+
+#### **First Pass:**
+
+- Initially, the first two elements of the array are compared in insertion sort.
+
+	### **`7	3	5	8	2	9	4	15	6`**
+
+
+- Here, **7** is greater than **3** hence they are not in the ascending order and **3** is not at its correct position. Thus, swap **7** and **3**.
+	### **`3	7	5	8	2	9	4	15	6`**
+   
+#### **Second Pass:**
+
+- Now, move to the next two elements and compare them
+
+	### **`3	7	5	8	2	9	4	15	6`**
+- Here, **7** is greater than **5** hence they are not in the ascending order. Thus, swap **7** and **5**.
+	### **`3	5	7	8	2	9	4	15	6`**
+- After swapping, elements **5** and **3** are seem sorted, thus no swapping will occur
+ 
+#### **Third Pass:**
+
+- Moving forward to the next two elements which are **7** and **8**
+	### **`3	5	7	8	2	9	4	15	6`**
+- Both **27** and **2** are present at their correct place so no swap needed
+
+#### **Fourth Pass:**
+
+- Moving to the next two elements **8** and **2**
+	### **`3	5	7	8	2	9	4	15	6`**
+- Clearly, they are not sorted, thus perform swap between both
+	### **`3	5	7	2	8	9	4	15	6`**
+- Now, **2** is smaller than **7**, hence, swap again
+	### **`3	5	2	7	8	9	4	15	6`**
+- Same situation here again. Swap needed between **2** and **5**
+	### **`3	2	5	7	8	9	4	15	6`**
+- Between **3** and **2** we need to swap both again
+	### **`2	3	5	7	8	9	4	15	6`**
+- Since all elements are in correct positions no swap will occur
