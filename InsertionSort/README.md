@@ -1,5 +1,5 @@
 # **INSERTION SORT**
-## Verilen Dizinin Insertion Sort Türüne Göre Aşamaları
+## Insertion Sort Steps of Given Array
 ### **Consider an example: {22,27,16,2,18,6}**
 
 #### **First Pass:**
